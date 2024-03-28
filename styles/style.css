@@ -97,14 +97,20 @@
         border: 1px solid silver;
     }
 
+    .container__footer {
+        display: flex;
+        justify-content: end;
+        align-items:first baseline
+    }
+
     .footer {
         padding: 15px;
         color:var(--branco-secundario);
         background-color: var(--preto-primario);
-        text-align: center;
+        padding-top: 1000px;
+        background-color: transparent;
         font-size: 1.5rem;
         font-weight: 400;
-        position: fixed;
     }
 
   .square:nth-child(even) {
